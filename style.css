@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;400&family=Rubik:ital,wght@1,600&display=swap');
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
+body {
+  background-color: #E6CBA8;
+  font-family: 'Kanit', sans-serif;
+  font-weight: 400;
+  color: #A47E3B;
+  font-size: 16px;
+  line-height: 25px ;
+}
+
+h1 {
+  color: #8EC3B0;
+}
+
+h2 {
+  color: #9ED5C5;
+}
+h1, h2 {
+  font-family: 'Rubik', sans-serif;
+  line-height: 30px ;
+}
+
+.btn-action:hover {
+  font-weight: 700;
+  background-color: red ;
+}
+
+.card {
+  background: #FFEDDB;
+  padding: 20px;
+  margin: 50px 20px;
+  border-radius: 40px;
+  box-shadow: 5px 5px 20px gray
+}
+.container {
+  margin: 0 auto;
+  text-align: center;
+}
+.img-circle {
+  border-radius: 50%;
+}
+.btn-action {
+  background-color: #8EC3B0;
+  border-radius: 4px;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+a {
+  font-size: 35px;
+  color: #8EC3B0;
+}
